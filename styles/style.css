@@ -1,0 +1,142 @@
+body {
+  max-width: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header a {
+  color: #f5f5f5;
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero {
+  background: black;
+  color: #f5f5f5;
+  position: relative;
+  padding-bottom: 59px;
+}
+
+.hero-subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.hero p {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.hero-date {
+  white-space: nowrap;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero .hero-title:nth-child(2) {
+  text-align: center;
+}
+
+.hero .hero-title:nth-child(3) {
+  text-align: right;
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+}
+
+.triangle {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.about {
+  background: #fee42a;
+  padding-bottom: 39px;
+  padding-top: 40px;
+}
+
+.about-title {
+  margin: 0;
+  color: rgb(19, 19, 19);
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  display: inline;
+  padding-left: 30px;
+}
+
+.about ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary {
+  background: black;
+  color: #f5f5f5;
+  padding-bottom: 18px;
+  padding-top: 55px;
+}
+
+.summary-title {
+  display: inline;
+  padding-left: 30px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.summary-quote {
+  margin: 0;
+  background: #343434;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.summary .summary-quote:nth-child(even) {
+  background: #fee42a;
+  color: rgb(19, 19, 19);
+}
+
+.footer {
+  background: black;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(254, 228, 42);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.socials a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
